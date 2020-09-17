@@ -1,0 +1,83 @@
+{
+    "label": "TP",
+    "children": [
+        {
+            "label": "NP",
+            "children": [
+                {
+                    "label": "Det",
+                    "children": [
+                        {
+                            "label": "a"
+                        }
+                    ]
+                },
+                {
+                    "label": "N",
+                    "children": [
+                        {
+                            "label": "linguist"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "T'",
+            "children": [
+                {
+                    "label": "T",
+                    "children": [
+                        {
+                            "label": "+pst"
+                        }
+                    ]
+                },
+                {
+                    "label": "VP",
+                    "children": [
+                        {
+                            "label": "V",
+                            "children": [
+                                {
+                                    "label": "walked"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "PP",
+                            "children": [
+                                {
+                                    "label": "P",
+                                    "children": [
+                                        {
+                                            "label": "Det",
+                                            "children": [
+                                                {
+                                                    "label": "a"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "NP",
+                                    "children": [
+                                        {
+                                            "label": "N",
+                                            "children": [
+                                                {
+                                                    "label": "bar"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
