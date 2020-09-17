@@ -1,29 +1,83 @@
 {
-  name: "TP",
-  children: [
-    {
-      name: "NP",
-      children: [
-        { name: "Det", children: [{ name: "a" }] },
-        { name: "N", children: [{ name: "linguist" }] }
-      ]
-    },
-    {
-      name: "T'",
-      children: [
-        { name: "T", children: [{ name: "+pst" }] },
+    "id": "TP",
+    "children": [
         {
-          name: "VP",
-          children: [
-            { name: "V", children: [{ name: "walked" }] },
-            { name: "PP", children: [
-              { name: "P", children: [{ name: "Det", 
-                children: [{ name: "a" }] }]},
-              { name: "NP", children: [{ name: "N", 
-                children: [{ name: "bar" }]}]}] }
-          ]
+            "id": "NP",
+            "children": [
+                {
+                    "id": "Det",
+                    "children": [
+                        {
+                            "id": "a"
+                        }
+                    ]
+                },
+                {
+                    "id": "N",
+                    "children": [
+                        {
+                            "id": "linguist"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "T'",
+            "children": [
+                {
+                    "id": "T",
+                    "children": [
+                        {
+                            "id": "+pst"
+                        }
+                    ]
+                },
+                {
+                    "id": "VP",
+                    "children": [
+                        {
+                            "id": "V",
+                            "children": [
+                                {
+                                    "id": "walked"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "PP",
+                            "children": [
+                                {
+                                    "id": "P",
+                                    "children": [
+                                        {
+                                            "id": "Det",
+                                            "children": [
+                                                {
+                                                    "id": "a"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "NP",
+                                    "children": [
+                                        {
+                                            "id": "N",
+                                            "children": [
+                                                {
+                                                    "id": "bar"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
