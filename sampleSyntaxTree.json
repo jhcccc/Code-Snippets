@@ -1,73 +1,73 @@
 {
-    "id": "TP",
+    "name": "TP",
     "children": [
         {
-            "id": "NP",
+            "name": "NP",
             "children": [
                 {
-                    "id": "Det",
+                    "name": "Det",
                     "children": [
                         {
-                            "id": "a"
+                            "name": "a"
                         }
                     ]
                 },
                 {
-                    "id": "N",
+                    "name": "N",
                     "children": [
                         {
-                            "id": "linguist"
+                            "name": "linguist"
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "T'",
+            "name": "T'",
             "children": [
                 {
-                    "id": "T",
+                    "name": "T",
                     "children": [
                         {
-                            "id": "+pst"
+                            "name": "+pst"
                         }
                     ]
                 },
                 {
-                    "id": "VP",
+                    "name": "VP",
                     "children": [
                         {
-                            "id": "V",
+                            "name": "V",
                             "children": [
                                 {
-                                    "id": "walked"
+                                    "name": "walked"
                                 }
                             ]
                         },
                         {
-                            "id": "PP",
+                            "name": "PP",
                             "children": [
                                 {
-                                    "id": "P",
+                                    "name": "P",
                                     "children": [
                                         {
-                                            "id": "Det",
+                                            "name": "Det",
                                             "children": [
                                                 {
-                                                    "id": "a"
+                                                    "name": "a"
                                                 }
                                             ]
                                         }
                                     ]
                                 },
                                 {
-                                    "id": "NP",
+                                    "name": "NP",
                                     "children": [
                                         {
-                                            "id": "N",
+                                            "name": "N",
                                             "children": [
                                                 {
-                                                    "id": "bar"
+                                                    "name": "bar"
                                                 }
                                             ]
                                         }
