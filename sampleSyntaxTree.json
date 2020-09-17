@@ -1,0 +1,29 @@
+{
+  name: "TP",
+  children: [
+    {
+      name: "NP",
+      children: [
+        { name: "Det", children: [{ name: "a" }] },
+        { name: "N", children: [{ name: "linguist" }] }
+      ]
+    },
+    {
+      name: "T'",
+      children: [
+        { name: "T", children: [{ name: "+pst" }] },
+        {
+          name: "VP",
+          children: [
+            { name: "V", children: [{ name: "walked" }] },
+            { name: "PP", children: [
+              { name: "P", children: [{ name: "Det", 
+                children: [{ name: "a" }] }]},
+              { name: "NP", children: [{ name: "N", 
+                children: [{ name: "bar" }]}]}] }
+          ]
+        }
+      ]
+    }
+  ]
+}
